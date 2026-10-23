@@ -31,12 +31,6 @@ class Produk {
 //object
 $produk = new Produk('P0001','Laptop',10000000,5);
 
-//input ke property
-$produk->kode = 'P001';
-$produk->nama = 'laptop';
-$produk->harga = 10000000;
-$produk->stok = 5; 
-
 //hasil
 echo "Produk: ".$produk->nama;
 echo "</br>";
